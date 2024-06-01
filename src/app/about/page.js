@@ -1,13 +1,13 @@
-import styles from "@/app/page.module.css";
-import Image from "next/image";
 import Link from "next/link";
+import styles from "./about.module.css";
+import Image from "next/image";
 
-const Home = () => {
+const About = () => {
   return (
     <>
-      <main className={styles.home}>
-        <div className={styles["home-content"]}>
-          <h1>LET'S WATCH MOVIES TOGETHER</h1>
+      <main className={styles.about}>
+        <div className={styles["about-content"]}>
+          <h1>OUR STORY</h1>
           <p>
             From award-winning dramas to blockbuster action movies, we've got
             you covered. Browse our selection of the latest and greatest movies,
@@ -16,7 +16,7 @@ const Home = () => {
           <Link href="/movie">Explore Movies</Link>
         </div>
         <div>
-          <Image src="/home.svg" width={400} height={400} />
+          <Image src="/about1.svg" width={400} height={400} />
         </div>
         <div className={styles["custom-shape-divider-bottom-1717248302"]}>
           <svg
@@ -36,4 +36,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default About;
