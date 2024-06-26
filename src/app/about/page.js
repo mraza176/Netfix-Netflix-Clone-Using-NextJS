@@ -1,6 +1,6 @@
-import Link from "next/link";
 import styles from "./about.module.css";
 import Image from "next/image";
+import Button from "../components/Button";
 
 const About = () => {
   return (
@@ -13,7 +13,7 @@ const About = () => {
             you covered. Browse our selection of the latest and greatest movies,
             and find your new favourite today.
           </p>
-          <Link href="/movie">Explore Movies</Link>
+          <Button link="/movie" text="Explore Movies" />
         </div>
         <div>
           <Image src="/about1.svg" width={400} height={400} />

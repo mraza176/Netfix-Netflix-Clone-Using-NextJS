@@ -14,7 +14,18 @@ const MovieCard = (elem) => {
         />
         <h2>{title.substring(0, 15)}</h2>
         <p>{`${synopsis.substring(0, 70)} ...`}</p>
-        <Link href={`/movie/${id}`}>Read More</Link>
+        <Link
+          style={{
+            backgroundColor: "black",
+            color: "white",
+            width: "100%",
+            textAlign: "center",
+            borderRadius: 10,
+          }}
+          href={`/movie/${id}`}
+        >
+          Read More
+        </Link>
       </div>
     </>
   );

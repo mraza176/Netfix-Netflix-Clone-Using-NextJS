@@ -1,6 +1,6 @@
 import styles from "@/app/page.module.css";
 import Image from "next/image";
-import Link from "next/link";
+import Button from "./components/Button";
 
 const Home = () => {
   return (
@@ -13,7 +13,7 @@ const Home = () => {
             you covered. Browse our selection of the latest and greatest movies,
             and find your new favourite today.
           </p>
-          <Link href="/movie">Explore Movies</Link>
+          <Button link="/movie" text="Explore Movies" />
         </div>
         <div>
           <Image src="/home.svg" width={400} height={400} />

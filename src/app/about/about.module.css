@@ -11,16 +11,12 @@
 
 .about-content {
   width: 525px;
+  color: #3f3d56;
 }
 
 .about-content p {
   margin-top: 20px;
   line-height: 1.2;
-}
-
-.about-content a {
-  margin-top: 20px;
-  padding: 10px 20px;
 }
 
 .custom-shape-divider-bottom-1717248302 {

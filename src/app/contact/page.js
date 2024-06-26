@@ -23,7 +23,6 @@ const Contact = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    console.log("Button clicked");
     try {
       const response = await fetch("/api/contact", {
         method: "POST",

@@ -11,16 +11,12 @@
 
 .home-content {
   width: 525px;
+  color: #3f3d56;
 }
 
 .home-content p {
   margin-top: 20px;
   line-height: 1.2;
-}
-
-.home-content a {
-  margin-top: 20px;
-  padding: 10px 20px;
 }
 
 .custom-shape-divider-bottom-1717248302 {
